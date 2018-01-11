@@ -1,0 +1,145 @@
+html{
+    height:100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    background-image : url(https://newevolutiondesigns.com/images/freebies/google-material-design-wallpaper-10.jpg);
+    background-image: center;
+    background-size:    cover;      
+    background-repeat:no-repeat;       /* <------ */
+}
+
+#pres1{
+    text-align: right;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+#pres2{
+    color: #8ec5ff;
+    text-align: right;
+    font-size: 60px;
+    margin-top: 0;
+    justify-content: space-around;
+}
+
+
+#pres{
+    display: flex;
+    height: 300px;
+    margin-top: 15vh;
+}
+
+#presText{
+    padding-top: 10vh;
+    display:block;
+    width: 60%;
+    height: auto;
+
+}
+
+#divImg{
+    display:block;
+    width: 40%;
+    height: auto;
+}
+
+#profileimg{
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 10%;
+}
+
+
+#descriptionDiv{
+    font-size: 20;
+    display: block;
+    padding-left:  15vw;
+    padding-right: 15vw;
+    margin-bottom: 15vh;
+    line-height: 200%;
+    font-weight: 100;
+    letter-spacing: 1px;
+}   
+
+#profileImg{
+    width:54px; /* you can use % */
+    height: auto;
+}
+
+
+
+
+#socialButtonsContainer{
+    display: flex;
+    justify-content: center;
+}
+#socialButtons{
+    width: 30vw;
+}
+
+#socialButtons ul{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#socialButtons i{
+    display: inline-block;
+    float: center;
+}
+
+#socialButtons a{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    
+    background-color: grey;
+    border-radius: 6px;
+}
+
+#socialButtons a i{
+    font-size: 32px;
+}
+
+
+
+#socialButtons #gh{
+    background-color: #4f4f4f;
+    transition: background-color 0.2s;
+}
+#socialButtons #le{
+    background-color:#70b0ff;
+    transition: background-color 0.2s;
+}
+#socialButtons #ig{
+    background-color:#f94f4f;
+    transition: background-color 0.2s;
+}
+
+#socialButtons #gh:hover{
+    background-color: #303030;
+}
+#socialButtons #le:hover{
+    background-color:#3d93ff;
+}
+#socialButtons #ig:hover{
+    background-color:#ff0000;
+}
+
+
+
+
+#socialButtons li{
+    display:block;
+}
+
+#socialButtons .fa{
+    color:white;
+}
+
+
