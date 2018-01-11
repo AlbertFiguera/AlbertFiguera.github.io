@@ -47,7 +47,7 @@ body {
 }
 
 #profileimg{
-    height: 300px;
+    height: 100%;
     border-radius: 30px;
     margin-left: 10%;
 }
@@ -56,9 +56,9 @@ body {
 #descriptionDiv{
     font-size: 20;
     display: block;
-    padding-left:  15vw;
-    padding-right: 15vw;
-    margin-bottom: 15vh;
+    padding-left:  25vw;
+    padding-right: 20vw;
+    margin-bottom: 5vh;
     line-height: 200%;
     font-weight: 100;
     letter-spacing: 1px;
