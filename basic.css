@@ -3,13 +3,13 @@ html{
 }
 
 body {
-    background-color: black;
     color: white;
     font-family: 'Lato', sans-serif;
     background-image : url(https://newevolutiondesigns.com/images/freebies/google-material-design-wallpaper-10.jpg);
     background-image: center;
     background-size:    cover;      
     background-repeat:no-repeat;       /* <------ */
+
 }
 
 #pres1{
